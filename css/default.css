@@ -1,0 +1,19 @@
+#display_list {max-width:640px; width:640px; }
+
+h1 {font-size:1.2em; }
+
+ol.BeerList {background-color:#f0f0f0; border:1px black solid; font-size:0.8em; }
+ol.BeerList li {color:#606060; }
+ol.BeerList li span.BeerName {color:#404040; display:block; font-style:italic; font-weight:bold; }
+ol.BeerList li span.Rating {color:#909090; font-weight:bold; }
+
+ol.BeerList li:hover,
+ol.BeerList li.Hover {background-color:#f8f8f8; background-color:#ffff99; color:#0000c0;}
+ol.BeerList li:hover span.BeerName,
+ol.BeerList li.Hover span.BeerName {color:#000080; }
+ol.BeerList li:hover span.Rating,
+ol.BeerList li.Hover span.Rating {color:#00a000; }
+
+select {color:#404040; margin-left:1em; }
+
+#zingchart {display:block; position:relative; }
